@@ -111,6 +111,7 @@ findbugsIncludeFilters := {
 * *Description:* Whether the reported bug instances should be sorted by class name or not.
 * *Accepts:* `true` and `false`
 * *Default:* `false`
+* CAUTION: this flag may override ReportType
 
 ### `findbugsIncludeFilters`
 * *Description:* Optional filter file XML content defining which bug instances to include in the static analysis.
